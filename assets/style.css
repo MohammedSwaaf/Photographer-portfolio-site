@@ -1,0 +1,1106 @@
+body 
+{
+    color:#000;
+    font:300 15px/15px Roboto,Arial,Helvetica;
+    background-color:rgba(192,192,192,0.3);
+/*    background-color: #fff;*/
+/*     background-color: #424242;*/
+    -webkit-font-smoothing:antialiased;
+    overflow-x: hidden;
+/*    overflow: hidden;*/
+/*    height: auto;*/
+}
+
+a
+{
+    color:#00a9c6;
+    text-decoration:none;
+}
+a:hover
+{
+    color:#666;
+}
+.btn,a,.btn:hover,a:hover
+{
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    outline: none !important;
+}
+
+h1,h2,h3,h4
+{
+    margin: 0;
+    line-height: 1em;
+}
+h1
+{
+    font:700 5em Roboto,Arial,Helvetica;
+    margin:0.25em 0;
+    text-transform: uppercase;
+}
+h2
+{
+    font:300 2.5em Roboto,Arial,Helvetica;
+    margin-bottom: 1.5em;
+    
+}
+h3
+{
+    font:300 2em Roboto,Arial,Helvetica;
+    margin:2em 0 1em 0;
+}
+h4
+{
+    font:300 1.5em Roboto,Arial,Helvetica;
+    margin-bottom: 0em;
+}
+h4 i
+{
+    margin-right: 0.5em;
+}
+h4 a
+{
+    text-decoration: none;
+}
+h3 a
+{
+    text-decoration: none;
+}
+h2 a
+{
+    text-decoration: none;
+}
+
+p
+{
+    font-size: 25px;
+    line-height: 1.8em;
+    margin-bottom: 1.7em;
+}
+
+.spacer
+{
+    padding: 1em 0;
+}
+
+.btn
+{
+    border:none;
+    border-radius: 0;
+    padding: 1em 4em;
+    background: rgba(0,0,0,0.5);
+    text-transform: uppercase;
+}
+.btn:hover,.btn:active
+{
+    color: #fff;
+}
+.btn-default
+{
+    color: #ccc;
+    border: 1px solid #aaa;
+}
+.btn-default:hover,
+.btn-default:active
+{
+    background: rgba(0,0,0,0.8);
+}
+.btn-primary
+{
+    color: #fff;
+    background:#3C3C3C;
+    width: 100%;
+    outline: none;
+    border-radius: 1% 1%;
+}
+.btn-primary:hover,
+.btn-primary:active,
+.btn-primary:focus
+{
+    background:#B31313;
+    box-shadow: none;
+}
+
+
+.navbar-nav > li > a
+{
+    font-size: 15px;
+    line-height: 3.6em;
+}
+.navbar-fixed-top
+{
+    top: 0px;
+}
+.navbar-inverse
+{
+    background: #252020;
+    border-color: none;
+}
+.navbar-inverse .navbar-nav>.active>a,
+.navbar-inverse .navbar-nav>.active>a:hover,
+.navbar-inverse .navbar-nav>.active>a:focus
+{
+    background: none;
+    color: #B31313;
+    font-weight: bolder;
+}
+
+#head,.carousel
+{
+    margin-top: 0;
+}
+
+#home
+{
+    margin-bottom: 0px;
+}
+/*about*/
+#about
+{
+    background: url("../images/portfolio/lab.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color: #fff;
+    margin-bottom: -7px;
+/*    display: none;*/
+    
+}
+#about .Me
+{
+    margin-bottom: 0px;
+}
+#about .pho
+{
+   
+}
+#about h3
+{
+    color: #B31313;
+}
+
+#about.spacer
+{
+    padding-left: 4em;
+    padding-right: 4em;
+    padding: 86px 0 0px 0;
+/*
+    padding-bottom: 0;
+    position: relative;
+    bottom: 5px;
+*/
+    margin: 85px 0 0px 0;
+}
+/*
+#about.spacer b
+{
+    font-size: 8px !important;
+}
+*/
+#about .me
+{
+        margin: 55px 0;
+}
+#about .me img
+{
+        position: relative;
+    left: -9px
+}
+#about .me h4
+{
+    position: relative;
+    bottom: -20px;
+}
+.me h4 i
+    {
+        font-size: 30px;
+    }
+.me h4 a 
+    {
+        color: #fff;
+        text-decoration: none;
+    }
+.me h4 .one:hover
+{
+    color: blue;
+}
+.me h4 .two:hover
+{
+    color: #da2f74;
+}
+.me h4 .three:hover
+{
+    color: darkgreen;
+}
+.me h4 .four:hover
+{
+    color: blue;
+}
+.three
+{
+    cursor: pointer;
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+}
+h4 .num
+{
+    display: none;
+}	
+
+
+
+/*testimonials*/
+#works h2
+{
+    color: #B31313;
+}
+    .pic
+{
+    position: relative;
+    top: -14px;
+    left: -40px;
+}
+
+.carousel-inner > .item > img
+{
+    width: 100%;
+    height: 720px;
+/*
+    position: relative;
+    top: 84px;
+*/
+}
+
+.partners img
+{
+    float: left;
+    margin:0 75px 30px 0;
+}
+.testimonails
+{
+    min-height: 195px;
+}
+.testimonails img
+{
+    margin-top: 5px;
+}
+.testimonails span
+{
+    color: #888;
+}
+.testimonails span b
+{
+    font-weight: 400;
+}
+.carousel-indicators li
+{
+    border: 1px solid #f3c024;
+}
+.carousel-indicators
+{
+    bottom: 0;
+}
+
+
+
+/*works*/
+#works
+{
+    padding-top:0em;
+    position: relative;
+    top: -40px;
+}
+#works figcaption a
+{
+    border:1px solid #fff;
+    margin-top: 1em;
+    display: inline-block;
+    color: #fff;
+    padding: 0 2em;
+}
+#works figcaption a:hover
+{
+    text-decoration: none;
+    padding: 0 3em;
+}
+/*works*/
+
+#portfolio
+{
+    
+    margin-bottom: -30px;
+/*    display: none;*/
+}
+/* Start of our team */
+
+.our_team
+{
+    background-color: #fff;
+    min-height: 600px;
+    position: relative;
+    top: 0px;
+    margin: 20px 0 0 0;
+/*        display: none;*/
+}
+.our_team .team
+{
+/*    background-color:rgba(2,2,2,0.7);*/
+    min-height: 600px;
+    color: #fff;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    position: relative;
+    top: 40px
+}
+.our_team .team h2
+{
+    margin-bottom: 40px;
+    font-weight: bolder;
+    color: #B31313!important;
+}
+.our_team .team .img
+{
+
+    width: 355px;
+    height: 300px;
+    margin-bottom: 30px;
+   
+}
+/*
+.our_team .team .img:hover
+{
+
+   
+    opacity: 1;
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out; 
+}
+*/
+
+.our_team .team h3
+{
+    position: relative;
+    left: 30px
+}
+
+.our_team .team .BTN
+{
+    max-width: 355px;
+    width: 355px;
+    position: relative;
+    top: -90px;
+}
+ 
+
+.our_team h3
+{
+    font-weight: bolder;
+}
+.our_team p
+{
+    font-size: 15px;
+    font-family: cursive;
+}
+.our_team .team .person
+{
+    margin-bottom: 50px;
+}
+/*
+.our_team .team .person a
+{
+    
+    color: #fff;
+    text-decoration: none;
+    -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;
+}
+*/
+
+.our_team .team h3
+{
+/*
+    margin: 0;
+    position: relative;
+    top: -20px;
+*/
+}
+/* End of our team */
+
+
+
+/* Start of stats */
+
+.data img
+{
+    width: 50%;
+    height: 100%;
+    padding: 55px 0 0 0;
+}
+
+/* End of stats */
+
+
+
+/* Start of section 3 */
+
+#section3
+{
+    height: 200px;
+    position: relative;
+    bottom: -102px;
+    background-color: ;
+/*    margin: 147px 0 0 0;*/
+/*    display: none;*/
+}
+
+#section3 .container
+{
+/*
+    position: relative;
+    top:-65px;
+*/
+}
+#section3 .adress
+{
+    color: #B31313;
+    position: relative;
+    bottom: -10px;
+}
+#section3 form
+{
+    max-width:500px;   
+    margin: -25px auto;
+    padding: 0 0 120px 0 ;
+    
+}
+form input,textarea
+{
+    margin-bottom: 10px
+}
+textarea
+{
+    height: 150px !important;
+}
+
+/* End of section 3 */
+
+/*Footer*/
+.footer h4 span
+{
+    color:#B31313;
+    font-weight: bold;
+}
+
+.footer h4 a
+{
+    position: relative;
+    left: -26px
+}
+.footer h4 .F:hover
+{
+    color: blue;
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+    
+}
+.footer .icons i
+{
+    padding: 10px 10px;
+}
+
+/*toggle*/
+
+
+.toggle
+{
+    color: #000;
+    position: relative;
+    top: -50px;
+}
+.toggle .cam:hover
+{
+    color: #B31313;
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+    cursor: pointer;
+}
+
+.toggle .cam1
+{
+    position: relative;
+    top:-25px
+}
+.toggle .cam1:hover
+{
+    color: #B31313;
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+    cursor: pointer;
+}
+
+.toggle .cam2
+{
+    color: #fff;
+    position: relative;
+    top:10px
+}
+.toggle .cam2:hover
+{
+    color: #B31313;
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+    cursor: pointer;
+}
+
+.toggle .cam3
+{
+    color: #fff;
+    position: relative;
+    top:70px
+}
+.toggle .cam3:hover
+{
+    color: #B31313;
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+    cursor: pointer;
+}
+
+/*toggle*/
+
+
+
+/* Start Loading */
+
+
+
+
+/* Start Loading */
+
+
+
+
+
+@media (min-width: 1199px)
+{
+    
+}
+
+.row grid team  wowload fadeInUpBig .effect-chico img
+{
+    width: 50%
+}
+
+.highlight-info
+{
+    background:url(../images/lab.jpg) center fixed;
+    background-size: cover;
+    color:#fff;
+}
+.highlight-info .overlay
+{
+    background: rgba(232,159,16,0.7);
+}
+.highlight-info h4
+{
+    color: #fff;
+    margin:0.5em 0 0 0;
+}
+/*about us*/
+
+/*contact*/
+.contactform textarea,
+.contactform input
+{
+    width: 100%;
+    padding:1em;
+    border:1px solid #ccc;
+    margin-bottom: 1em;
+    border-radius: 0;
+    outline: none;
+}
+/*contact*/
+
+
+.footer
+{
+    background-color: #252020;
+    color: #fff;
+    font-size: 1em;
+    color: #aaa;
+        
+}
+.footer a
+{
+    color: #aaa;
+    margin: 0 1em;
+}
+.footer span 
+{
+    
+}
+.footer a
+{
+/*    color: #B31313;*/
+    font-weight: bold;
+    text-decoration: none;
+}
+.gototop
+{
+    position: fixed;bottom: 20px;
+    right: 20px;
+    background: rgba(0,0,0,0.5);
+    padding: 10px;
+    color: #fff;
+}
+.gototop i
+{
+    line-height: 0.5em;
+}
+
+/*form*/
+
+
+
+
+
+
+
+
+
+
+.contact-form input, form textarea, .alert {
+    margin-bottom: 10px
+}
+.contact-form input {
+    padding-left: 32px
+}
+.contact-form {
+    max-width: 500px;
+    margin: 20px auto
+}
+.contact-form .form-group {
+    margin-bottom: 0;
+    position: relative;
+}
+.contact-form .asterisx {
+    height: 0;
+    font-size: 22px;
+    color: #b90d0d;
+    position: absolute;
+    right: 10px;
+    top: 6px
+}
+.contact-form .custom-alert {
+    padding: 5px;
+    display: none
+}
+.contact-form .hay {
+    height: 180px
+}
+.contact-form input:not([type="submit"]) + .fa {
+    height: 0;
+    float: left;
+    position: relative;
+    top: -32px;
+    left: 10px;
+    color: #999
+}
+.contact-form input[type="submit"] + .fa {
+    display: block;
+    position: relative;
+    top: -33px;
+    left: 190px;
+    color: #fff
+}
+
+
+
+
+/*form*/
+
+
+/* For gread system */
+
+@media (max-width: 1200px) 
+{
+	body
+    {
+        font:300 13px/13px Roboto,Arial,Helvetica;
+    }
+	.navbar-brand
+    {
+        padding-top: 11px;
+    }
+	.services ul li
+    {
+        margin:0 0.5em;
+    }
+	.grid figure h2
+    {
+        font: 700 1.5em Roboto,Arial,Helvetica;
+    }
+	figure.effect-oscar figcaption
+    {
+        padding: 12%;
+    }
+	figure.effect-oscar figcaption::before,
+    figure.effect-chico figcaption::before
+    {
+        top: 20px;
+        right: 20px;
+        bottom: 20px;
+        left: 20px;
+    }
+    
+    .services ul li span b
+    {
+
+        font-size: 20px;
+
+    }
+    .footer h4 a
+{
+    position: relative;
+    left: -26px
+}
+    
+    
+
+	.partners img{margin: 0 25px 25px 0;}
+}
+@media (max-width:1119)
+{
+    .our_team .team .img
+{
+    width: 200px;
+    height: 200px;
+    margin-bottom: 30px;
+    transition: all 1s ease;
+}
+    .our_team .team .BTN
+{
+    max-width: 200px;
+}
+}
+
+/* For 900px screen */
+
+@media (max-width: 900px) 
+{
+	h1
+    {
+        font: 700 3.5em Roboto,Arial,Helvetica;
+    }
+	h4 
+    {
+        font: 300 1.3em Roboto,Arial,Helvetica;
+        
+    }
+	.btn
+    {
+        padding: 1em 2em;
+    }
+    
+    
+	.partners img
+    {
+        margin: 0 15px 25px 0;
+        width: 157px;
+    }
+	.services ul li
+    {
+        width: 9em;
+        height: 9em;
+    }
+	figure.effect-chico figcaption
+    {
+        padding: 2em;
+    }	
+	figure.effect-oscar figcaption
+    {
+        padding: 20%;
+    }
+	figure.effect-chico figcaption::before
+    {
+        top: 10px;
+        right: 10px;
+        bottom: 10px;
+        left: 10px;
+    }
+	.grid figure.effect-chico p
+    {
+        font-size: 0.6em;
+        line-height: 1.5em;
+    }
+    
+    /* Alpums*/
+    .our_team .team .img
+/*
+{
+    width: 200px;
+    height: 200px;
+    margin-bottom: 30px;
+    transition: all 1s ease;
+}
+    .our_team .team .BTN
+{
+    max-width: 200px;
+}
+*/
+
+}
+#about.spacer {
+    padding-left: 4em;
+    padding-right: 4em;
+    margin: 25px 0 0px 0;
+}
+#about.spacer p
+{
+        font-size: 22px ;
+}
+
+.log
+{
+    position: relative;
+    top: -500px;
+}
+.footer h4 a
+{
+    position: relative;
+    left: -22px
+}
+        /*
+  .footer h4 a
+{
+    position: relative;
+    left: -28px
+}
+*/
+
+/* For 767px screen */
+ 
+@media (max-width: 767px)
+{
+	body
+    {
+        font:300 12px/12px Roboto,Arial,Helvetica;
+    }
+    p
+{
+    font-size: 15px;
+    
+}
+	.navbar-nav > li > a 
+    {
+        line-height: 1em;
+    }	
+	.navbar-brand
+    {
+        padding: 7px;
+    }
+	.navbar-brand img
+    {
+        height: 37px;
+    }
+	.navbar-toggle
+    {
+        margin-top: 12px;
+    }
+.carousel-inner > .item > img {
+    width: 100%;
+    height: 550px;
+}
+	.carousel-caption,
+    .carousel-control,
+    .carousel-indicators
+    {
+        display: none;
+    }
+
+	h2.text-center
+    {
+        /*text-align: left;*/
+            font-size: 2.7em;
+    }
+	h4 
+    {
+        font: 300 1.2em Roboto,Arial,Helvetica;
+    }
+	#partners h2
+    {
+        padding: 0 1em;
+    } 
+	#home
+    {
+        padding-top: 0em;
+    }
+    .services ul li span b
+    {
+
+        font-size: 15px;
+
+    }
+
+	.partners
+    {
+        display: block;
+        float: left;
+    }
+	.partners img
+    {
+        width: 120px;
+    }
+    
+    /* For Logo */
+    
+.pic img {
+    position: relative;
+    top: -2px;
+    left: -25px;
+    width: 200px;
+    display: none;
+        
+}
+.log  
+{
+    font-size: 18px;
+    position: relative;
+    top: 7px;
+    right: -9px;
+    font-family: 'Quicksand', sans-serif;
+/*    font-weight: bold;*/
+    color: #fff        
+}
+
+
+
+#about.spacer
+{
+    padding-left: 2em;
+    padding-right: 2em;
+    margin: 55px 0 0px 0;
+}
+    
+#about.spacer p
+{
+        font-size: 18px !important;
+}
+.spacer
+    {
+        padding:2em 0 0 0;
+    }
+	.services ul li
+    {
+        margin-bottom: 1em;
+    }
+
+	.highlight-info .overlay
+    {
+        padding-bottom: 2em;
+    }
+    #work .effect-oscar
+    {
+        padding-bottom: 1px;
+    }
+
+	.grid.team div
+    {
+        margin: 0;
+        padding: 0;
+    }
+	figure.effect-chico figcaption
+    {
+        padding: 1.5em;
+    }
+	.footer
+    {
+/*        margin-top: 2em;*/
+        padding-bottom: 2em;
+    }
+    .footer h4 a
+{
+    position: relative;
+    left: -18px
+}
+
+    .our_team .team .img
+{
+    width: 240px;
+    height: 240px;
+    margin-bottom: 30px;
+    transition: all 1s ease;
+}
+    .our_team .team h3
+{
+    margin: 0;
+    position: relative;
+    top: -150px;
+}
+    .our_team .team .BTN
+{
+    max-width: 240px;
+    position: relative;
+    top: -30px;
+}
+    .me img
+    {
+        width: 200px;
+        height: 200px;
+        position: relative;
+        right: 9px
+    }
+    .me h4 i
+    {
+        font-size: 25px;
+    }
+    
+    
+    .statc .data h2
+{
+    font-size: 20px;
+    font-weight: bolder
+}
+.statc .data p
+{
+    font-size: 30px;
+}    
+#section3
+    {
+        margin: -30px 0 ;
+    }
+#section3 .adress
+{
+    color: #B31313;
+    position: relative;
+    bottom: 0px;
+}
+    
+    .toggle .cam1
+{
+    position: relative;
+    top:-12px
+}
+    .toggle .cam2 {
+   
+    top: 28px;
